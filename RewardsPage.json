@@ -1,0 +1,63 @@
+{
+    "children": {
+        "node": {
+            "social-media-menu": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "profile-menu": {
+                "attributes": {
+                    "position": {
+                        "anchor": "bottom-left",
+                        "x": 140,
+                        "y": 50
+                    }
+                }
+            },
+            "player-username": {
+                "attributes": {
+                    "position": {
+                        "anchor": "bottom-left",
+                        "x": 94,
+                        "y": 84
+                    }
+                }
+            },
+            "main-menu": {
+                "children": {
+                    "all":{
+                        "attributes": {
+                            "actions": [
+                                {
+                                    "type": "RotateBy",
+                                    "repeat": true,
+                                    "value": 180,
+                                    "duration": 1
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "bottom-menu": {
+                "attributes": {
+                    "layout": {
+                        "flip-axis": false,
+                        "gap": 0,
+                        "axis": "column"
+                    },
+                    "content-size": {
+                        "width": 30,
+                        "height": 250
+                    },
+                    "position": {
+                        "anchor": "center-left",
+                        "x": 25,
+                        "y": -15
+                    }
+                }
+            }
+        }
+    }
+}
